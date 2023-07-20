@@ -6,6 +6,7 @@ import AllUser from './AllUser'
 
 const Container = styled(Box)`
 width:90%;
+overflow:auto;
 `
 
 const User = ({ text }) => {
@@ -24,7 +25,6 @@ const User = ({ text }) => {
   useEffect(()=>{
     socket.current.emit('addUser',account);
     socket.current.on('getUsers',user=>{
-      console.log(user)
       setActiveUser(user)
     })
   },[account])
