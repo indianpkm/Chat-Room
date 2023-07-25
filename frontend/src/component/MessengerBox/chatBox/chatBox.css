@@ -1,0 +1,22 @@
+.quill{
+    width: 100%;
+    height: 70%;
+}
+.ql-toolbar.ql-snow{
+    padding: 1rem;
+    display: flex;
+    align-items: flex-start;
+}
+.emoji-picker-container {
+    position: absolute;
+    bottom: 2rem; 
+    left:8rem
+  }
+  .ql-editor>p{
+    display: inline-block;
+  }
+ 
+  .ql-toolbar .ql-formats .ql-image {
+    display: none !important;
+  }
+  
