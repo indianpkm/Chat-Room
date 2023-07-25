@@ -11,7 +11,7 @@ const Container=styled(Box)(({theme})=>({
   height:'100vh',
   background: 'linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%)',
 [theme.breakpoints.down('md')]:{
-  width:'100svh'
+  height:'100svh'
 }
 }))
 
