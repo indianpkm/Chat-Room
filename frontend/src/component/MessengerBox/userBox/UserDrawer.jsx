@@ -37,6 +37,9 @@ const Container = styled(Box)(({theme})=>({
     flexDirection:'column',
     padding:'-10px',
     backgroundColor:'#fff',
+    [theme.breakpoints.down('md')]:{
+    height:'90svh'
+  }
     }))
     
  const Image=styled('img')({
